@@ -8,14 +8,13 @@
         /* Allmänna stilar */
         body {
             font-family: 'Arial', sans-serif;
-            background-color: #f9f6f1; /* Ljusbeige bakgrund */
-            color: #333;
             margin: 0;
             padding: 0;
             box-sizing: border-box;
-            background-image: url('https://via.placeholder.com/1920x1080.png?text=Julbild'); /* Dekorativ bakgrundsbild */
+            background-image: url('https://www.publicdomainpictures.net/pictures/20000/velka/christmas-tree-1412353584t1l.jpg'); /* Julig bakgrundsbild */
             background-size: cover;
             background-position: center;
+            color: #fff;
         }
 
         /* Header */
@@ -26,7 +25,7 @@
             padding: 50px 20px;
             border-bottom: 10px solid #b22222; /* Mörkröd kant */
             box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Skugga för djup */
-            background-image: url('https://via.placeholder.com/1920x300.png?text=God+Jul'); /* Julig bakgrundsbild */
+            background-image: url('https://www.publicdomainpictures.net/pictures/90000/velka/christmas-tree-1549049069zMc.jpg'); /* Julig bakgrundsbild */
             background-size: cover;
             background-position: center;
         }
