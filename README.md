@@ -13,17 +13,18 @@
         }
 
         /* Allmän styling */
-        body {
-            margin: 0;
-            font-family: 'Arial', sans-serif;
-            background-image: url (https://cdn.photoroom.com/v2/image-cache?path=gs://background-7ef44.appspot.com/backgrounds_v3/christmas/35_-_christmas.jpg; 
-            background-size: cover;
-            background-attachment: fixed;
-            background-repeat: no-repeat;
-            background-position: center;
-            color: var(--dark-green);
-            line-height: 1.6;
-        }
+       body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-image: url("https://cdn.photoroom.com/v2/image-cache?path=gs://background-7ef44.appspot.com/backgrounds_v3/christmas/35_-_christmas.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: var(--dark-green);
+    line-height: 1.6;
+}
+
 
         header {
             background-color: var(--header-red);
