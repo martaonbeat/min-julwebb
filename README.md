@@ -5,58 +5,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Martas Julbutik</title>
     <style>
-        /* Klassisk julpalett */
+        /* Variabler för färger */
         :root {
-            --evergreen: #006400; /* Mörkgrön */
-            --jolly-berry: #A52A2A; /* Djupröd */
-            --golden-glow: #FFD700; /* Guld */
-            --frosty-white: #FAFAFA; /* Snövit */
+            --header-red: #A43C3F; /* Mjuk röd nyans för header */
+            --gold: #D5B194; /* Guldnyans för detaljer */
+            --dark-green: #484037; /* Mörkgrön för bakgrund och text */
+            --snow-white: #F9F5F2; /* Vit för huvudbakgrund */
         }
 
         /* Allmän styling */
         body {
             margin: 0;
             font-family: 'Arial', sans-serif;
-            background-color: var(--frosty-white);
-            color: var(--evergreen);
+            background-color: var(--snow-white);
+            color: var(--dark-green);
             line-height: 1.6;
         }
 
         header {
+            background-color: var(--header-red);
+            color: var(--gold);
             text-align: center;
-            background-color: var(--jolly-berry);
-            color: var(--frosty-white);
-            padding: 20px;
-            border-bottom: 5px solid var(--golden-glow);
+            padding: 30px 20px;
+            border-bottom: 5px solid var(--gold);
         }
 
         header h1 {
-            font-size: 2.5rem;
             margin: 0;
-            text-shadow: 2px 2px var(--golden-glow);
+            font-size: 2.8rem;
+            text-shadow: 2px 2px var(--dark-green);
         }
 
         header p {
-            font-size: 1.2rem;
+            font-size: 1.3rem;
             margin-top: 10px;
         }
 
         main {
-            padding: 20px;
+            padding: 30px 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
 
         .products {
             display: flex;
             justify-content: center;
             flex-wrap: wrap;
-            gap: 20px;
+            gap: 25px;
+            max-width: 1200px;
         }
 
         .product {
-            background-color: var(--golden-glow);
-            color: var(--evergreen);
-            border: 1px solid var(--jolly-berry);
-            border-radius: 10px;
+            background-color: var(--gold);
+            color: var(--dark-green);
+            border-radius: 15px;
             text-align: center;
             padding: 20px;
             width: 280px;
@@ -78,7 +81,6 @@
         .product h2 {
             font-size: 1.5rem;
             margin-bottom: 10px;
-            color: var(--jolly-berry);
         }
 
         .product p {
@@ -87,8 +89,8 @@
         }
 
         .product button {
-            background-color: var(--jolly-berry);
-            color: var(--frosty-white);
+            background-color: var(--header-red);
+            color: var(--gold);
             border: none;
             padding: 10px 20px;
             border-radius: 10px;
@@ -98,16 +100,17 @@
         }
 
         .product button:hover {
-            background-color: var(--evergreen);
+            background-color: var(--dark-green);
+            color: var(--gold);
         }
 
         footer {
             text-align: center;
-            background-color: var(--evergreen);
-            color: var(--frosty-white);
+            background-color: var(--dark-green);
+            color: var(--gold);
             padding: 20px;
             margin-top: 20px;
-            border-top: 5px solid var(--jolly-berry);
+            border-top: 5px solid var(--header-red);
         }
 
         footer p {
@@ -124,20 +127,20 @@
         <section class="products">
             <div class="product">
                 <img src="https://via.placeholder.com/150" alt="Produkt 1">
-                <h2>Produkt 1</h2>
-                <p>Beskrivning av produkt 1</p>
+                <h2>Julgranskula</h2>
+                <p>Elegant dekoration för din julgran.</p>
                 <button>Köp nu</button>
             </div>
             <div class="product">
                 <img src="https://via.placeholder.com/150" alt="Produkt 2">
-                <h2>Produkt 2</h2>
-                <p>Beskrivning av produkt 2</p>
+                <h2>Doftljus</h2>
+                <p>Sprider en mysig julkänsla i hemmet.</p>
                 <button>Köp nu</button>
             </div>
             <div class="product">
                 <img src="https://via.placeholder.com/150" alt="Produkt 3">
-                <h2>Produkt 3</h2>
-                <p>Beskrivning av produkt 3</p>
+                <h2>Julstrumpa</h2>
+                <p>Perfekt för små presenter och godis.</p>
                 <button>Köp nu</button>
             </div>
         </section>
