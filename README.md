@@ -5,35 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Martas Julbutik</title>
     <style>
-        /* Färger */
+        /* Klassisk julpalett */
         :root {
-            --cinnamon-milk: #D7B49E; /* Ljus, varm beige nyans */
-            --jolly-berry: #D83A56;   /* Djup julröd färg */
-            --yule-log: #705E4E;      /* Mörk träfärgad brun */
-            --evergreen-mist: #5A6E58; /* Dämpad grön för en julig känsla */
+            --evergreen: #006400; /* Mörkgrön */
+            --jolly-berry: #A52A2A; /* Djupröd */
+            --golden-glow: #FFD700; /* Guld */
+            --frosty-white: #FAFAFA; /* Snövit */
         }
 
         /* Allmän styling */
         body {
             margin: 0;
             font-family: 'Arial', sans-serif;
-            background-color: var(--cinnamon-milk);
-            color: var(--yule-log);
+            background-color: var(--frosty-white);
+            color: var(--evergreen);
             line-height: 1.6;
         }
 
         header {
             text-align: center;
-            background-color: var(--evergreen-mist);
-            color: var(--cinnamon-milk);
+            background-color: var(--jolly-berry);
+            color: var(--frosty-white);
             padding: 20px;
-            border-bottom: 5px solid var(--jolly-berry);
+            border-bottom: 5px solid var(--golden-glow);
         }
 
         header h1 {
             font-size: 2.5rem;
             margin: 0;
-            text-shadow: 2px 2px var(--yule-log);
+            text-shadow: 2px 2px var(--golden-glow);
         }
 
         header p {
@@ -53,9 +53,9 @@
         }
 
         .product {
-            background-color: var(--cinnamon-milk);
-            color: var(--yule-log);
-            border: 1px solid var(--evergreen-mist);
+            background-color: var(--golden-glow);
+            color: var(--evergreen);
+            border: 1px solid var(--jolly-berry);
             border-radius: 10px;
             text-align: center;
             padding: 20px;
@@ -88,7 +88,7 @@
 
         .product button {
             background-color: var(--jolly-berry);
-            color: var(--cinnamon-milk);
+            color: var(--frosty-white);
             border: none;
             padding: 10px 20px;
             border-radius: 10px;
@@ -98,13 +98,13 @@
         }
 
         .product button:hover {
-            background-color: var(--evergreen-mist);
+            background-color: var(--evergreen);
         }
 
         footer {
             text-align: center;
-            background-color: var(--yule-log);
-            color: var(--cinnamon-milk);
+            background-color: var(--evergreen);
+            color: var(--frosty-white);
             padding: 20px;
             margin-top: 20px;
             border-top: 5px solid var(--jolly-berry);
@@ -123,19 +123,19 @@
     <main>
         <section class="products">
             <div class="product">
-                <img src="https://via.placeholder.com/300x200/D83A56/FFFFFF?text=Produkt+1" alt="Produkt 1">
+                <img src="https://via.placeholder.com/150" alt="Produkt 1">
                 <h2>Produkt 1</h2>
                 <p>Beskrivning av produkt 1</p>
                 <button>Köp nu</button>
             </div>
             <div class="product">
-                <img src="https://via.placeholder.com/300x200/5A6E58/FFFFFF?text=Produkt+2" alt="Produkt 2">
+                <img src="https://via.placeholder.com/150" alt="Produkt 2">
                 <h2>Produkt 2</h2>
                 <p>Beskrivning av produkt 2</p>
                 <button>Köp nu</button>
             </div>
             <div class="product">
-                <img src="https://via.placeholder.com/300x200/D7B49E/FFFFFF?text=Produkt+3" alt="Produkt 3">
+                <img src="https://via.placeholder.com/150" alt="Produkt 3">
                 <h2>Produkt 3</h2>
                 <p>Beskrivning av produkt 3</p>
                 <button>Köp nu</button>
