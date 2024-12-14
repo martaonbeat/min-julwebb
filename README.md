@@ -5,19 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Martas Julbutik</title>
     <style>
-        /* Variabler för färger */
         :root {
-            --header-red: #A43C3F; /* Mjuk röd nyans för header */
-            --gold: #D5B194; /* Guldnyans för detaljer */
-            --dark-green: #484037; /* Mörkgrön för bakgrund och text */
-            --snow-white: #F9F5F2; /* Vit för huvudbakgrund */
+            --snow-white: #f8f8f8;
+            --dark-green: #2f4f4f;
+            --header-red: #a43c3f;
+            --gold: #d5b194;
         }
 
         /* Allmän styling */
         body {
             margin: 0;
             font-family: 'Arial', sans-serif;
-            background-color: var(--snow-white);
+            background-image: url('https://images.unsplash.com/photo-1544025163-7e6e2bc3839f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1920');
+            background-size: cover;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-position: center;
             color: var(--dark-green);
             line-height: 1.6;
         }
@@ -127,20 +130,20 @@
         <section class="products">
             <div class="product">
                 <img src="https://via.placeholder.com/150" alt="Produkt 1">
-                <h2>Julgranskula</h2>
-                <p>Elegant dekoration för din julgran.</p>
+                <h2>Produkt 1</h2>
+                <p>Beskrivning av produkt 1</p>
                 <button>Köp nu</button>
             </div>
             <div class="product">
                 <img src="https://via.placeholder.com/150" alt="Produkt 2">
-                <h2>Doftljus</h2>
-                <p>Sprider en mysig julkänsla i hemmet.</p>
+                <h2>Produkt 2</h2>
+                <p>Beskrivning av produkt 2</p>
                 <button>Köp nu</button>
             </div>
             <div class="product">
                 <img src="https://via.placeholder.com/150" alt="Produkt 3">
-                <h2>Julstrumpa</h2>
-                <p>Perfekt för små presenter och godis.</p>
+                <h2>Produkt 3</h2>
+                <p>Beskrivning av produkt 3</p>
                 <button>Köp nu</button>
             </div>
         </section>
